@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>BIRD IS GREAT</title>
+  <subtitle>BETTER TO RUN THAN CURSE THE ROAD.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://cybeird.github.io/"/>
+  <updated>2016-10-20T12:12:06.000Z</updated>
+  <id>https://cybeird.github.io/</id>
+  
+  <author>
+    <name>CyBeird</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>post</title>
+    <link href="https://cybeird.github.io/2016/10/20/post/"/>
+    <id>https://cybeird.github.io/2016/10/20/post/</id>
+    <published>2016-10-20T12:12:05.000Z</published>
+    <updated>2016-10-20T12:12:06.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>从WP到HEXO</title>
+    <link href="https://cybeird.github.io/2016/10/20/%E4%BB%8EWP%E5%88%B0HEXO/"/>
+    <id>https://cybeird.github.io/2016/10/20/从WP到HEXO/</id>
+    <published>2016-10-20T11:01:24.000Z</published>
+    <updated>2016-10-20T11:21:48.000Z</updated>
+    
+    <content type="html"><![CDATA[  <blockquote class="blockquote-center"><br>  这不该是这样的～ –古尔丹<br>  时代变了！ </blockquote>
+
+<p>  实际上，很久以前就对wordpress中十分诡异的对中文字体的支持颇有微词了，而同时作为一个穷逼，并没有钱去获得全托管的网站，对于网站的CSS也是表示毫无权限。<br>  在经历了无穷无尽，水深火热的小白期后，终于成为了一个菜鸟，然后照着谷歌上的<a href="https://http://opiece.me/2015/04/09/hexo-guide/" target="_blank" rel="external">教程</a>终于成功的搭建起了自己的网站(想想也是很不容易)。</p>
+<p>  然后发一篇博文来试一试 <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">NexT</a> 的特性(比如说代码高亮之类的东西)；</p>
+  <figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div></pre></td><td class="code"><pre><div class="line">  <span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">lowbit</span><span class="params">(<span class="keyword">int</span> x)</span></span></div><div class="line">&#123;</div><div class="line">	<span class="keyword">return</span> x &amp; (-x);</div><div class="line">&#125;</div><div class="line"><span class="keyword">int</span> bit[<span class="number">10001</span>];</div><div class="line"><span class="keyword">int</span> a[<span class="number">100001</span>];</div><div class="line"><span class="keyword">int</span> n,l,r;</div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">built</span><span class="params">()</span></span></div><div class="line">&#123;</div><div class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</div><div class="line">	 &#123;</div><div class="line">	 	bit[i]=a[i];</div><div class="line">	 	<span class="keyword">for</span>(<span class="keyword">int</span> j=i<span class="number">-1</span>;j&gt;i-lowbit(i);j-=lowbit(j))</div><div class="line">	 	 bit[i]+=bit[j];</div><div class="line">	 &#125;</div><div class="line">&#125;</div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">sum</span><span class="params">(<span class="keyword">int</span> k)</span></span></div><div class="line">&#123;</div><div class="line">	<span class="keyword">int</span> ans=<span class="number">0</span>;</div><div class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=k;i&gt;<span class="number">0</span>;i-=lowbit(i))</div><div class="line">	 ans+=bit[i];</div><div class="line">	<span class="keyword">return</span> ans; </div><div class="line">&#125;</div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">change</span><span class="params">(<span class="keyword">int</span> x,<span class="keyword">int</span> delta)</span></span></div><div class="line">&#123;</div><div class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=x;i&lt;=n;i+=lowbit(i))</div><div class="line">	 bit[i]+=delta;</div><div class="line">&#125;</div><div class="line"><span class="keyword">int</span> x,delta;</div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></div><div class="line">&#123;</div><div class="line">	<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;n);</div><div class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</div><div class="line">	 <span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;a[i]);</div><div class="line">	built();</div><div class="line">	<span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;l,&amp;r); </div><div class="line">	<span class="built_in">printf</span>(<span class="string">"%d\n"</span>,sum(r)-sum(l<span class="number">-1</span>));</div><div class="line">	<span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;x,&amp;delta);</div><div class="line">	change(x,delta);</div><div class="line">	<span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;l,&amp;r);</div><div class="line">	<span class="built_in">printf</span>(<span class="string">"%d\n"</span>,sum(r)-sum(l<span class="number">-1</span>));</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+        &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;br&gt;  这不该是这样的～ –古尔丹&lt;br&gt;  时代变了！ &lt;/blockquote&gt;
+
+&lt;p&gt;  实际上，很久以前就对wordpress中十分诡异的对中文字体的支持颇有微词了，而同时作为一个穷逼，
+    
+    </summary>
+    
+    
+      <category term="technology" scheme="https://cybeird.github.io/tags/technology/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://cybeird.github.io/2016/10/19/hello-world/"/>
+    <id>https://cybeird.github.io/2016/10/19/hello-world/</id>
+    <published>2016-10-19T12:58:33.280Z</published>
+    <updated>2016-10-19T12:58:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

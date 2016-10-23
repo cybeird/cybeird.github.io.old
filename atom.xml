@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cybeird.tk/"/>
-  <updated>2016-10-23T06:49:32.000Z</updated>
+  <updated>2016-10-23T06:58:38.000Z</updated>
   <id>https://cybeird.tk/</id>
   
   <author>
@@ -20,16 +20,18 @@
     <link href="https://cybeird.tk/2016/10/23/stationed-on/"/>
     <id>https://cybeird.tk/2016/10/23/stationed-on/</id>
     <published>2016-10-23T06:27:09.000Z</published>
-    <updated>2016-10-23T06:49:32.000Z</updated>
+    <updated>2016-10-23T06:58:38.000Z</updated>
     
-    <content type="html"><![CDATA[<p>好了，搞了差不多有两节课的时间，终于把WP上的博文全数迁移到了HEXO上，实在是很不容易。<br><blockquote><p>首先，安装 hexo-migrator-wordpress 插件。<br>undefined</p>
-<footer><strong>HEXO</strong><cite><a href="https://hexo.io/zh-cn/docs/migration.html" target="_blank" rel="external">迁移</a></cite></footer></blockquote><br>没错，官方是有这么一个插件可以将WordPress上的博文直接迁移到hexo上，十分的简单而又快捷。<br>不过唯一麻烦的是代码块方面，只需要把<pre>,<code>这样的东西改成<code>c++</code>即可。</code></pre></p>
+    <content type="html"><![CDATA[<p>好了，搞了差不多有两节课的时间，终于把WP上的博文全数迁移到了HEXO上，实在是很不容易。<br><a id="more"></a><br><blockquote><p>首先，安装 hexo-migrator-wordpress 插件。</p>
+<p>$ npm install hexo-migrator-wordpress –save</p>
+<p>在 WordPress 仪表盘中导出数据(“Tools” → “Export” → “WordPress”)（详情参考WP支持页面）。<br>插件安装完成后，执行下列命令来迁移所有文章。source 可以是 WordPress 导出的文件路径或网址。</p>
+<p>$ hexo migrate wordpress <source></p>
+<footer><strong>HEXO</strong><cite><a href="https://hexo.io/zh-cn/docs/migration.html" target="_blank" rel="external">迁移</a></cite></footer></blockquote><br>没错，官方是有这么一个插件可以将WordPress上的博文直接迁移到hexo上，十分的简单而又快捷。<br>不过唯一麻烦的是代码块方面，就只能一个一个的改了。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;好了，搞了差不多有两节课的时间，终于把WP上的博文全数迁移到了HEXO上，实在是很不容易。&lt;br&gt;&lt;blockquote&gt;&lt;p&gt;首先，安装 hexo-migrator-wordpress 插件。&lt;br&gt;undefined&lt;/p&gt;
-&lt;footer&gt;&lt;strong&gt;HEXO&lt;/
+      &lt;p&gt;好了，搞了差不多有两节课的时间，终于把WP上的博文全数迁移到了HEXO上，实在是很不容易。&lt;br&gt;
     
     </summary>
     
@@ -39,11 +41,11 @@
   </entry>
   
   <entry>
-    <title>『2』我要入门！矩阵？辣鸡！[Uva 442](TOWQs)</title>
+    <title>『2』我要入门！让你们见识一下二叉树的力量！</title>
     <link href="https://cybeird.tk/2016/10/23/%E6%88%91%E8%A6%81%E5%85%A5%E9%97%A83rd/"/>
     <id>https://cybeird.tk/2016/10/23/我要入门3rd/</id>
     <published>2016-10-23T01:50:54.000Z</published>
-    <updated>2016-10-23T06:22:22.000Z</updated>
+    <updated>2016-10-23T06:59:56.000Z</updated>
     
     <summary type="html">
     
@@ -57,6 +59,8 @@
       <category term="基础数据结构" scheme="https://cybeird.tk/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
       <category term="c++" scheme="https://cybeird.tk/tags/c/"/>
+    
+      <category term="二叉树" scheme="https://cybeird.tk/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
     
   </entry>
   
@@ -333,9 +337,9 @@
     
       <category term="正常的标题" scheme="https://cybeird.tk/tags/%E6%AD%A3%E5%B8%B8%E7%9A%84%E6%A0%87%E9%A2%98/"/>
     
-      <category term="stack" scheme="https://cybeird.tk/tags/stack/"/>
-    
       <category term="我要入门" scheme="https://cybeird.tk/tags/%E6%88%91%E8%A6%81%E5%85%A5%E9%97%A8/"/>
+    
+      <category term="stack" scheme="https://cybeird.tk/tags/stack/"/>
     
   </entry>
   
@@ -441,13 +445,13 @@
       <category term="C++" scheme="https://cybeird.tk/categories/ALL/C/"/>
     
     
+      <category term="MINE" scheme="https://cybeird.tk/tags/MINE/"/>
+    
       <category term="C++" scheme="https://cybeird.tk/tags/C/"/>
     
       <category term="TOWQs" scheme="https://cybeird.tk/tags/TOWQs/"/>
     
       <category term="Trip Of WaterQuestions" scheme="https://cybeird.tk/tags/Trip-Of-WaterQuestions/"/>
-    
-      <category term="MINE" scheme="https://cybeird.tk/tags/MINE/"/>
     
       <category term="递推" scheme="https://cybeird.tk/tags/%E9%80%92%E6%8E%A8/"/>
     
@@ -577,9 +581,9 @@
     
       <category term="强势" scheme="https://cybeird.tk/tags/%E5%BC%BA%E5%8A%BF/"/>
     
-      <category term="搜索" scheme="https://cybeird.tk/tags/%E6%90%9C%E7%B4%A2/"/>
-    
       <category term="For NOIP" scheme="https://cybeird.tk/tags/For-NOIP/"/>
+    
+      <category term="搜索" scheme="https://cybeird.tk/tags/%E6%90%9C%E7%B4%A2/"/>
     
   </entry>
   
@@ -624,9 +628,9 @@
       <category term="C++" scheme="https://cybeird.tk/categories/ALL/C/"/>
     
     
-      <category term="C++" scheme="https://cybeird.tk/tags/C/"/>
-    
       <category term="强势" scheme="https://cybeird.tk/tags/%E5%BC%BA%E5%8A%BF/"/>
+    
+      <category term="C++" scheme="https://cybeird.tk/tags/C/"/>
     
       <category term="奇技淫巧" scheme="https://cybeird.tk/tags/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/"/>
     
@@ -750,11 +754,11 @@
       <category term="TECHNOLOGY" scheme="https://cybeird.tk/categories/ALL/C/TECHNOLOGY/"/>
     
     
+      <category term="TECHNOLOGY" scheme="https://cybeird.tk/tags/TECHNOLOGY/"/>
+    
       <category term="C艹" scheme="https://cybeird.tk/tags/C%E8%89%B9/"/>
     
       <category term="IT" scheme="https://cybeird.tk/tags/IT/"/>
-    
-      <category term="TECHNOLOGY" scheme="https://cybeird.tk/tags/TECHNOLOGY/"/>
     
   </entry>
   

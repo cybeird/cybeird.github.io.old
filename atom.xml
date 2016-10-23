@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cybeird.tk/"/>
-  <updated>2016-10-23T01:50:56.000Z</updated>
+  <updated>2016-10-23T06:49:32.000Z</updated>
   <id>https://cybeird.tk/</id>
   
   <author>
@@ -16,23 +16,54 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>post</title>
-    <link href="https://cybeird.tk/2016/10/23/post-1/"/>
-    <id>https://cybeird.tk/2016/10/23/post-1/</id>
+    <title>正式驻扎在HEXO!</title>
+    <link href="https://cybeird.tk/2016/10/23/stationed-on/"/>
+    <id>https://cybeird.tk/2016/10/23/stationed-on/</id>
+    <published>2016-10-23T06:27:09.000Z</published>
+    <updated>2016-10-23T06:49:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>好了，搞了差不多有两节课的时间，终于把WP上的博文全数迁移到了HEXO上，实在是很不容易。<br><blockquote><p>首先，安装 hexo-migrator-wordpress 插件。<br>undefined</p>
+<footer><strong>HEXO</strong><cite><a href="https://hexo.io/zh-cn/docs/migration.html" target="_blank" rel="external">迁移</a></cite></footer></blockquote><br>没错，官方是有这么一个插件可以将WordPress上的博文直接迁移到hexo上，十分的简单而又快捷。<br>不过唯一麻烦的是代码块方面，只需要把<pre>,<code>这样的东西改成<code>c++</code>即可。</code></pre></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;好了，搞了差不多有两节课的时间，终于把WP上的博文全数迁移到了HEXO上，实在是很不容易。&lt;br&gt;&lt;blockquote&gt;&lt;p&gt;首先，安装 hexo-migrator-wordpress 插件。&lt;br&gt;undefined&lt;/p&gt;
+&lt;footer&gt;&lt;strong&gt;HEXO&lt;/
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="https://cybeird.tk/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>『2』我要入门！矩阵？辣鸡！[Uva 442](TOWQs)</title>
+    <link href="https://cybeird.tk/2016/10/23/%E6%88%91%E8%A6%81%E5%85%A5%E9%97%A83rd/"/>
+    <id>https://cybeird.tk/2016/10/23/我要入门3rd/</id>
     <published>2016-10-23T01:50:54.000Z</published>
-    <updated>2016-10-23T01:50:56.000Z</updated>
+    <updated>2016-10-23T06:22:22.000Z</updated>
     
     <summary type="html">
     
     </summary>
     
+      <category term="c++" scheme="https://cybeird.tk/categories/c/"/>
+    
+    
+      <category term="我要入门" scheme="https://cybeird.tk/tags/%E6%88%91%E8%A6%81%E5%85%A5%E9%97%A8/"/>
+    
+      <category term="基础数据结构" scheme="https://cybeird.tk/tags/%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="c++" scheme="https://cybeird.tk/tags/c/"/>
     
   </entry>
   
   <entry>
     <title>从头开始吧!少年，感受这一切/</title>
-    <link href="https://cybeird.tk/2016/10/20/post/"/>
-    <id>https://cybeird.tk/2016/10/20/post/</id>
+    <link href="https://cybeird.tk/2016/10/20/Form-Begining/"/>
+    <id>https://cybeird.tk/2016/10/20/Form-Begining/</id>
     <published>2016-10-20T12:12:05.000Z</published>
     <updated>2016-10-21T06:54:06.000Z</updated>
     
@@ -111,31 +142,9 @@
   </entry>
   
   <entry>
-    <title>132213</title>
-    <link href="https://cybeird.tk/2016/10/19/132213/"/>
-    <id>https://cybeird.tk/2016/10/19/132213/</id>
-    <published>2016-10-19T08:54:07.000Z</published>
-    <updated>2016-10-23T02:22:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>1231312313131312321</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;1231312313131312321&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="ALL" scheme="https://cybeird.tk/categories/ALL/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>无休止加班的成因</title>
-    <link href="https://cybeird.tk/2016/10/18/e6-97-a0-e4-bc-91-e6-ad-a2-e5-8a-a0-e7-8f-ad-e7-9a-84-e6-88-90-e5-9b-a0/"/>
-    <id>https://cybeird.tk/2016/10/18/e6-97-a0-e4-bc-91-e6-ad-a2-e5-8a-a0-e7-8f-ad-e7-9a-84-e6-88-90-e5-9b-a0/</id>
+    <link href="https://cybeird.tk/2016/10/18/FromWordPress%20(22)/"/>
+    <id>https://cybeird.tk/2016/10/18/FromWordPress (22)/</id>
     <published>2016-10-18T09:24:27.000Z</published>
     <updated>2016-10-23T02:22:00.000Z</updated>
     
@@ -189,31 +198,9 @@
   </entry>
   
   <entry>
-    <title>投票系统尝试</title>
-    <link href="https://cybeird.tk/2016/10/18/e6-8a-95-e7-a5-a8-e7-b3-bb-e7-bb-9f-e5-b0-9d-e8-af-95/"/>
-    <id>https://cybeird.tk/2016/10/18/e6-8a-95-e7-a5-a8-e7-b3-bb-e7-bb-9f-e5-b0-9d-e8-af-95/</id>
-    <published>2016-10-18T09:12:37.000Z</published>
-    <updated>2016-10-23T02:22:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>[polldaddy poll=0][polldaddy poll=9554458]</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[polldaddy poll=0][polldaddy poll=9554458]&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="ALL" scheme="https://cybeird.tk/categories/ALL/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>真的是很水的题目呢！(TOWQs)</title>
-    <link href="https://cybeird.tk/2016/10/18/e7-9c-9f-e7-9a-84-e6-98-af-e5-be-88-e6-b0-b4-e7-9a-84-e9-a2-98-e7-9b-ae-e5-91-a2-ef-bc-81towqs/"/>
-    <id>https://cybeird.tk/2016/10/18/e7-9c-9f-e7-9a-84-e6-98-af-e5-be-88-e6-b0-b4-e7-9a-84-e9-a2-98-e7-9b-ae-e5-91-a2-ef-bc-81towqs/</id>
+    <link href="https://cybeird.tk/2016/10/18/FromWordPress%20(26)/"/>
+    <id>https://cybeird.tk/2016/10/18/FromWordPress (26)/</id>
     <published>2016-10-18T08:55:29.000Z</published>
     <updated>2016-10-23T02:22:00.000Z</updated>
     
@@ -269,8 +256,8 @@
   
   <entry>
     <title>这和说好的不一样啊！(TOWQs)</title>
-    <link href="https://cybeird.tk/2016/10/18/e8-bf-99-e5-92-8c-e8-af-b4-e5-a5-bd-e7-9a-84-e4-b8-8d-e4-b8-80-e6-a0-b7-e5-95-8a-ef-bc-81towqs/"/>
-    <id>https://cybeird.tk/2016/10/18/e8-bf-99-e5-92-8c-e8-af-b4-e5-a5-bd-e7-9a-84-e4-b8-8d-e4-b8-80-e6-a0-b7-e5-95-8a-ef-bc-81towqs/</id>
+    <link href="https://cybeird.tk/2016/10/18/FromWordPress%20(29)/"/>
+    <id>https://cybeird.tk/2016/10/18/FromWordPress (29)/</id>
     <published>2016-10-18T01:48:49.000Z</published>
     <updated>2016-10-23T02:21:58.000Z</updated>
     
@@ -309,8 +296,8 @@
   
   <entry>
     <title>『2』我要入门！矩阵？辣鸡！[Uva 442](TOWQs)</title>
-    <link href="https://cybeird.tk/2016/10/16/e3-80-8e2-e3-80-8f-e6-88-91-e8-a6-81-e5-85-a5-e9-97-a8-ef-bc-81-e7-9f-a9-e9-98-b5-ef-bc-9f-e8-be-a3-e9-b8-a1-ef-bc-81/"/>
-    <id>https://cybeird.tk/2016/10/16/e3-80-8e2-e3-80-8f-e6-88-91-e8-a6-81-e5-85-a5-e9-97-a8-ef-bc-81-e7-9f-a9-e9-98-b5-ef-bc-9f-e8-be-a3-e9-b8-a1-ef-bc-81/</id>
+    <link href="https://cybeird.tk/2016/10/16/FromWordPress%20(4)/"/>
+    <id>https://cybeird.tk/2016/10/16/FromWordPress (4)/</id>
     <published>2016-10-16T11:12:27.000Z</published>
     <updated>2016-10-23T02:21:58.000Z</updated>
     
@@ -354,8 +341,8 @@
   
   <entry>
     <title>真是令人感到欣慰:一个千古谜题终被解决！</title>
-    <link href="https://cybeird.tk/2016/10/16/e7-9c-9f-e6-98-af-e4-bb-a4-e4-ba-ba-e6-84-9f-e5-88-b0-e6-ac-a3-e6-85-b0-e4-b8-80-e4-b8-aa-e5-8d-83-e5-8f-a4-e8-b0-9c-e9-a2-98-e7-bb-88-e8-a2-ab-e8-a7-a3-e5-86-b3-ef-bc-81/"/>
-    <id>https://cybeird.tk/2016/10/16/e7-9c-9f-e6-98-af-e4-bb-a4-e4-ba-ba-e6-84-9f-e5-88-b0-e6-ac-a3-e6-85-b0-e4-b8-80-e4-b8-aa-e5-8d-83-e5-8f-a4-e8-b0-9c-e9-a2-98-e7-bb-88-e8-a2-ab-e8-a7-a3-e5-86-b3-ef-bc-81/</id>
+    <link href="https://cybeird.tk/2016/10/16/FromWordPress%20(24)/"/>
+    <id>https://cybeird.tk/2016/10/16/FromWordPress (24)/</id>
     <published>2016-10-16T02:03:00.000Z</published>
     <updated>2016-10-23T02:22:00.000Z</updated>
     
@@ -378,52 +365,9 @@
   </entry>
   
   <entry>
-    <title>有趣的通知</title>
-    <link href="https://cybeird.tk/2016/10/15/e6-9c-89-e8-b6-a3-e7-9a-84-e9-80-9a-e7-9f-a5/"/>
-    <id>https://cybeird.tk/2016/10/15/e6-9c-89-e8-b6-a3-e7-9a-84-e9-80-9a-e7-9f-a5/</id>
-    <published>2016-10-15T03:21:03.000Z</published>
-    <updated>2016-10-23T02:22:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>嗯哼，可以，这必须必须很强势</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;嗯哼，可以，这必须必须很强势&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="ALL" scheme="https://cybeird.tk/categories/ALL/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>__trashed-2</title>
-    <link href="https://cybeird.tk/2016/10/14/trashed-2/"/>
-    <id>https://cybeird.tk/2016/10/14/trashed-2/</id>
-    <published>2016-10-14T11:25:33.000Z</published>
-    <updated>2016-10-23T02:21:58.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="http://www.msgjug.com/p_life/happen/tomb_detail.gdo?name=%E5%90%B4%E6%9E%97%E9%98%B3" target="_blank" rel="external">http://www.msgjug.com/p_life/happen/tomb_detail.gdo?name=%E5%90%B4%E6%9E%97%E9%98%B3</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;http://www.msgjug.com/p_life/happen/tomb_detail.gdo?name=%E5%90%B4%E6%9E%97%E9%98%B3&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.
-    
-    </summary>
-    
-      <category term="ALL" scheme="https://cybeird.tk/categories/ALL/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>『1』我要入门！[UVa 514](TOWQs)</title>
-    <link href="https://cybeird.tk/2016/10/14/e3-80-8e1-e3-80-8f-e6-88-91-e8-a6-81-e5-85-a5-e9-97-a8-ef-bc-81uva-514towqs/"/>
-    <id>https://cybeird.tk/2016/10/14/e3-80-8e1-e3-80-8f-e6-88-91-e8-a6-81-e5-85-a5-e9-97-a8-ef-bc-81uva-514towqs/</id>
+    <link href="https://cybeird.tk/2016/10/14/FromWordPress%20(3)/"/>
+    <id>https://cybeird.tk/2016/10/14/FromWordPress (3)/</id>
     <published>2016-10-14T02:10:46.000Z</published>
     <updated>2016-10-23T02:21:58.000Z</updated>
     
@@ -467,38 +411,17 @@
   
   <entry>
     <title>Gooooloooowoooocooo！{鱼人语：好水的题啊!}(TOWQs)</title>
-    <link href="https://cybeird.tk/2016/10/11/gooooloooowoooocooo-ef-bc-81-e9-b1-bc-e4-ba-ba-e8-af-ad-ef-bc-9a-e5-a5-bd-e6-b0-b4-e7-9a-84-e9-a2-98-e5-95-8atowqs/"/>
-    <id>https://cybeird.tk/2016/10/11/gooooloooowoooocooo-ef-bc-81-e9-b1-bc-e4-ba-ba-e8-af-ad-ef-bc-9a-e5-a5-bd-e6-b0-b4-e7-9a-84-e9-a2-98-e5-95-8atowqs/</id>
+    <link href="https://cybeird.tk/2016/10/11/gooooloooowoooocooo/"/>
+    <id>https://cybeird.tk/2016/10/11/gooooloooowoooocooo/</id>
     <published>2016-10-11T13:01:34.000Z</published>
-    <updated>2016-10-23T02:21:58.000Z</updated>
+    <updated>2016-10-23T06:21:14.000Z</updated>
     
     <content type="html"><![CDATA[<p>如果奇迹有颜色，那么一定是“vijos上的橙名！”色；；</p>
 <p>没错，为了RP而奋斗的我，又一次的在<a href="https://vijos.org/training" target="_blank" rel="external">训练营</a>中发现了一道十分水的<a href="https://vijos.org/p/1130" target="_blank" rel="external">题目</a>！<a id="more"></a></p>
-<p>这道题我的第一印象果断是暴力啊！原来还准备专门写个函数，</p>
-<pre><code>int dfs(int x){
-    int half,sum=1;
-    if(x%2==0)
-        half=x/2;
-    else
-        half=(x-1)/2;
-    for(int i=1;i&amp;lt;=half;i++)
-        sum+=dfs(i);
-    return sum;
- }`&lt;/pre&gt;
-当然，也并非一定要整个函数出来，恩；
-&lt;pre&gt;`&lt;span class=&quot;hljs-preprocessor&quot;&gt;#&lt;span class=&quot;hljs-keyword&quot;&gt;include&lt;/span&gt; &amp;lt;cstdio&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;hljs-keyword&quot;&gt;int&lt;/span&gt; main() {
-    &lt;span class=&quot;hljs-keyword&quot;&gt;int&lt;/span&gt; dp[&lt;span class=&quot;hljs-number&quot;&gt;1001&lt;/span&gt;],n;
-    dp[&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;] = &lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;;
-    &lt;span class=&quot;hljs-built_in&quot;&gt;scanf&lt;/span&gt;(&lt;span class=&quot;hljs-string&quot;&gt;&quot;%d&quot;&lt;/span&gt;,&amp;amp;n);
-    &lt;span class=&quot;hljs-keyword&quot;&gt;for&lt;/span&gt; (&lt;span class=&quot;hljs-keyword&quot;&gt;int&lt;/span&gt; i = &lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt;;i &amp;lt;= n;i++) {
-        dp[i] = dp[i-&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;];
-        &lt;span class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt; (!(i%&lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt;)) dp[i] += dp[i/&lt;span class=&quot;hljs-number&quot;&gt;2&lt;/span&gt;];
-    }
-    &lt;span class=&quot;hljs-built_in&quot;&gt;printf&lt;/span&gt;(&lt;span class=&quot;hljs-string&quot;&gt;&quot;%d&quot;&lt;/span&gt;,dp[n]);
-    &lt;span class=&quot;hljs-keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;;
-}
-</code></pre><p>恩，至于思路么，很简单。</p>
+<p>这道题我的第一印象果断是暴力啊！原来还准备专门写个函数，<br><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">int dfs(int x)&#123;</div><div class="line">    int half,sum=1;</div><div class="line">    if(x%2==0)</div><div class="line">        half=x/2;</div><div class="line">    else</div><div class="line">        half=(x-1)/2;</div><div class="line">    for(int i=1;i&amp;lt;=half;i++)</div><div class="line">        sum+=dfs(i);</div><div class="line">    return sum;</div><div class="line"> &#125;`&lt;/pre&gt;</div></pre></td></tr></table></figure></p>
+<pre><code>当然，也并非一定要整个函数出来，恩；
+</code></pre><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">int</span> dp[<span class="number">1001</span>],n;</div><div class="line">    dp[<span class="number">1</span>] = <span class="number">1</span>;</div><div class="line">    <span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;n);</div><div class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">2</span>;i &lt;= n;i++) &#123;</div><div class="line">        dp[i] = dp[i<span class="number">-1</span>];</div><div class="line">        <span class="keyword">if</span> (!(i%<span class="number">2</span>)) dp[i] += dp[i/<span class="number">2</span>];</div><div class="line">    &#125;</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"%d"</span>,dp[n]);</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>恩，至于思路么，很简单。</p>
 <blockquote>
 <p>茬它的左边加上一个自然数，但该自然数不能超过原数的一半;<br>然后我们就从该自然数左边第一位开始枚举，然后对于每一种可能的第一位，再次进行枚举，然后对于枚举出来的第一位的第一位(也就是第二位)，进行枚举，然后再对枚举出来的。。。</p>
 </blockquote>
@@ -532,8 +455,8 @@
   
   <entry>
     <title>“上古看守者”的五种用途</title>
-    <link href="https://cybeird.tk/2016/10/09/e4-b8-8a-e5-8f-a4-e7-9c-8b-e5-ae-88-e8-80-85-e7-9a-84-e4-ba-94-e7-a7-8d-e7-94-a8-e9-80-94/"/>
-    <id>https://cybeird.tk/2016/10/09/e4-b8-8a-e5-8f-a4-e7-9c-8b-e5-ae-88-e8-80-85-e7-9a-84-e4-ba-94-e7-a7-8d-e7-94-a8-e9-80-94/</id>
+    <link href="https://cybeird.tk/2016/10/09/FromWordPress%20(5)/"/>
+    <id>https://cybeird.tk/2016/10/09/FromWordPress (5)/</id>
     <published>2016-10-09T10:14:49.000Z</published>
     <updated>2016-10-23T02:21:58.000Z</updated>
     
@@ -571,9 +494,9 @@
       <category term="Heartstone" scheme="https://cybeird.tk/categories/ALL/Heartstone/"/>
     
     
-      <category term="Heartstone" scheme="https://cybeird.tk/tags/Heartstone/"/>
-    
       <category term="强势" scheme="https://cybeird.tk/tags/%E5%BC%BA%E5%8A%BF/"/>
+    
+      <category term="Heartstone" scheme="https://cybeird.tk/tags/Heartstone/"/>
     
       <category term="妙趣横生" scheme="https://cybeird.tk/tags/%E5%A6%99%E8%B6%A3%E6%A8%AA%E7%94%9F/"/>
     
@@ -581,10 +504,10 @@
   
   <entry>
     <title>真~水题 一元三次方程！(TOWQs)</title>
-    <link href="https://cybeird.tk/2016/10/08/e7-9c-9f-e6-b0-b4-e9-a2-98-e4-b8-80-e5-85-83-e4-b8-89-e6-ac-a1-e6-96-b9-e7-a8-8b-ef-bc-81towqs/"/>
-    <id>https://cybeird.tk/2016/10/08/e7-9c-9f-e6-b0-b4-e9-a2-98-e4-b8-80-e5-85-83-e4-b8-89-e6-ac-a1-e6-96-b9-e7-a8-8b-ef-bc-81towqs/</id>
+    <link href="https://cybeird.tk/2016/10/08/FromWordPress%20(25)/"/>
+    <id>https://cybeird.tk/2016/10/08/FromWordPress (25)/</id>
     <published>2016-10-08T06:40:48.000Z</published>
-    <updated>2016-10-23T02:21:58.000Z</updated>
+    <updated>2016-10-23T06:15:16.000Z</updated>
     
     <content type="html"><![CDATA[<p>这是我第一次写如此正常的题解，心情感到十分激动；</p>
 <p>没错，我遵循我的<a href="https://cybirdy.wordpress.com/2016/10/05/%e9%87%8c%e7%a8%8b%e7%a2%91%ef%bc%81%e5%b1%85%e7%84%b6%e8%a6%81%e5%bc%80%e5%a7%8b%e7%96%af%e7%8b%82%e6%90%9c%e7%b4%a2%e6%b0%b4%e9%a2%98%ef%bc%81/" target="_blank" rel="external">誓言</a>来刷水题，而最近的水题则是关于灰常简单的！没错，就是非常简单的枚举而已。恩，而今天写的就是<a href="https://vijos.org/p/1116" target="_blank" rel="external">这道题目</a>；<a id="more"></a></p>
@@ -593,46 +516,8 @@
 <blockquote>
 <p>提示：记函数f(x)，若存在2个实数x1和x2，且x1&lt;x2，使f(x1)*(x2)&lt;0，则在(x1, x2)之间一定存在实数x0使得f(x0)=0。<br>而且相信大家也都在提示里面看到了，就基于这个原理来二分，不断枚举直到找到符合条件的值</p>
 </blockquote>
-<p>下面上代码</p>
-<pre>#include 
-#include  
-#define TINY 0.000000001
-double a,b,c,d,l,r,p;
-double f(double x){      //返回式子的值 
-    return ((a*x+b)*x+c)*x+d;
-}
-inline int equal(double a,double b){
-    return fabs(a-b)&lt;TINY;
-}
-int main(){
-    scanf("%lf%lf%lf%lf",&amp;a,&amp;b,&amp;c,&amp;d);
-    l=-100;
-    for(l=-100.0;l&lt;=99.0;l+=1.0){  //从-100开始枚举                   r=l+1;                 double M=f(l)*f(r);                 if(M&gt;0)
-            continue;        //如果f(l)*f(r)&gt;0，那么跳出本次循环 
-        double pl=l,pr=r,pm;
-        if(equal(f(l),0)){
-            printf("%.2lf ",l);
-            continue;
-        }
-        if(equal(f(r),0)){
-            l++;
-            printf("%.2lf ",r);
-            continue;
-        }      //左右两边不断缩小寻找范围，直到找到那个值（结果） 
-        while(1){
-            pm=(pl+pr)/2;
-            if(f(pl)*f(pm)&lt;=0)
-                pr=pm;
-            else
-                pl=pm;
-            if(equal(f(pm),0)){
-                printf("%.2lf ",pm);
-                break;  //还是二分 
-            }
-        }
-    }
-    return 0;
-}</pre>]]></content>
+<p>下面上代码<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">define</span> TINY 0.000000001</span></div><div class="line"><span class="keyword">double</span> a,b,c,d,l,r,p;</div><div class="line"><span class="function"><span class="keyword">double</span> <span class="title">f</span><span class="params">(<span class="keyword">double</span> x)</span></span>&#123;      <span class="comment">//返回式子的值 </span></div><div class="line">    <span class="keyword">return</span> ((a*x+b)*x+c)*x+d;</div><div class="line">&#125;</div><div class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">int</span> <span class="title">equal</span><span class="params">(<span class="keyword">double</span> a,<span class="keyword">double</span> b)</span></span>&#123;</div><div class="line">    <span class="keyword">return</span> <span class="built_in">fabs</span>(a-b)&amp;lt;TINY;</div><div class="line">&#125;</div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</div><div class="line">    <span class="built_in">scanf</span>(<span class="string">"%lf%lf%lf%lf"</span>,&amp;amp;a,&amp;amp;b,&amp;amp;c,&amp;amp;d);</div><div class="line">    l=<span class="number">-100</span>;</div><div class="line">    <span class="keyword">for</span>(l=<span class="number">-100.0</span>;l&amp;lt;=<span class="number">99.0</span>;l+=<span class="number">1.0</span>)&#123;  <span class="comment">//从-100开始枚举                   r=l+1;                 double M=f(l)*f(r);                 if(M&amp;gt;0)</span></div><div class="line">            <span class="keyword">continue</span>;		<span class="comment">//如果f(l)*f(r)&amp;gt;0，那么跳出本次循环 </span></div><div class="line">        <span class="keyword">double</span> pl=l,pr=r,pm;</div><div class="line">        <span class="keyword">if</span>(equal(f(l),<span class="number">0</span>))&#123;</div><div class="line">            <span class="built_in">printf</span>(<span class="string">"%.2lf "</span>,l);</div><div class="line">            <span class="keyword">continue</span>;</div><div class="line">        &#125;</div><div class="line">        <span class="keyword">if</span>(equal(f(r),<span class="number">0</span>))&#123;</div><div class="line">            l++;</div><div class="line">            <span class="built_in">printf</span>(<span class="string">"%.2lf "</span>,r);</div><div class="line">            <span class="keyword">continue</span>;</div><div class="line">        &#125;      <span class="comment">//左右两边不断缩小寻找范围，直到找到那个值（结果） </span></div><div class="line">        <span class="keyword">while</span>(<span class="number">1</span>)&#123;</div><div class="line">            pm=(pl+pr)/<span class="number">2</span>;</div><div class="line">            <span class="keyword">if</span>(f(pl)*f(pm)&amp;lt;=<span class="number">0</span>)</div><div class="line">                pr=pm;</div><div class="line">            <span class="keyword">else</span></div><div class="line">                pl=pm;</div><div class="line">            <span class="keyword">if</span>(equal(f(pm),<span class="number">0</span>))&#123;</div><div class="line">                <span class="built_in">printf</span>(<span class="string">"%.2lf "</span>,pm);</div><div class="line">                <span class="keyword">break</span>;  <span class="comment">//还是二分 </span></div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+]]></content>
     
     <summary type="html">
     
@@ -660,8 +545,8 @@ int main(){
   
   <entry>
     <title>里程碑！居然要开始疯狂搜索水题！</title>
-    <link href="https://cybeird.tk/2016/10/05/e9-87-8c-e7-a8-8b-e7-a2-91-ef-bc-81-e5-b1-85-e7-84-b6-e8-a6-81-e5-bc-80-e5-a7-8b-e7-96-af-e7-8b-82-e6-90-9c-e7-b4-a2-e6-b0-b4-e9-a2-98-ef-bc-81/"/>
-    <id>https://cybeird.tk/2016/10/05/e9-87-8c-e7-a8-8b-e7-a2-91-ef-bc-81-e5-b1-85-e7-84-b6-e8-a6-81-e5-bc-80-e5-a7-8b-e7-96-af-e7-8b-82-e6-90-9c-e7-b4-a2-e6-b0-b4-e9-a2-98-ef-bc-81/</id>
+    <link href="https://cybeird.tk/2016/10/05/FromWordPress%20(31)/"/>
+    <id>https://cybeird.tk/2016/10/05/FromWordPress (31)/</id>
     <published>2016-10-05T10:34:22.000Z</published>
     <updated>2016-10-23T02:21:58.000Z</updated>
     
@@ -688,9 +573,9 @@ int main(){
       <category term="C++" scheme="https://cybeird.tk/categories/ALL/C/"/>
     
     
-      <category term="强势" scheme="https://cybeird.tk/tags/%E5%BC%BA%E5%8A%BF/"/>
-    
       <category term="TECHNOLOGY" scheme="https://cybeird.tk/tags/TECHNOLOGY/"/>
+    
+      <category term="强势" scheme="https://cybeird.tk/tags/%E5%BC%BA%E5%8A%BF/"/>
     
       <category term="搜索" scheme="https://cybeird.tk/tags/%E6%90%9C%E7%B4%A2/"/>
     
@@ -700,10 +585,10 @@ int main(){
   
   <entry>
     <title>天哪！毫无思绪！令人感到恐惧的数学(水题?)(TOWQs)</title>
-    <link href="https://cybeird.tk/2016/10/04/e5-a4-a9-e5-93-aa-ef-bc-81-e6-af-ab-e6-97-a0-e6-80-9d-e7-bb-aa-ef-bc-81-e4-bb-a4-e4-ba-ba-e6-84-9f-e5-88-b0-e6-81-90-e6-83-a7-e7-9a-84-e6-95-b0-e5-ad-a6-e6-b0-b4-e9-a2-98towqs/"/>
-    <id>https://cybeird.tk/2016/10/04/e5-a4-a9-e5-93-aa-ef-bc-81-e6-af-ab-e6-97-a0-e6-80-9d-e7-bb-aa-ef-bc-81-e4-bb-a4-e4-ba-ba-e6-84-9f-e5-88-b0-e6-81-90-e6-83-a7-e7-9a-84-e6-95-b0-e5-ad-a6-e6-b0-b4-e9-a2-98towqs/</id>
+    <link href="https://cybeird.tk/2016/10/04/FromWordPress%20(13)/"/>
+    <id>https://cybeird.tk/2016/10/04/FromWordPress (13)/</id>
     <published>2016-10-04T11:26:36.000Z</published>
-    <updated>2016-10-23T02:21:58.000Z</updated>
+    <updated>2016-10-23T06:12:22.000Z</updated>
     
     <content type="html"><![CDATA[<p>这道题的题目描述灰常简单，第一眼看以为是一道十分水的题目；</p>
 <p>但是！！！（我仔细一看也没有发现这背后隐藏着可怕的真相~）<a id="more"></a></p>
@@ -720,39 +605,12 @@ int main(){
 <p>而更加令人吃惊的在后面：我以为这道题应该会用到我所不能触及的只是，然而，只是一个十分巨大的脑洞！</p>
 <p>没错，学长仅仅只是在黑板（白板？）上写下了两个式子，如下：</p>
 <p>## </p>
-<pre>8( 8x + 7 ) + 7 = 64x + 63；
-4( 4( 4x + 3 ) + 3 ) + 3 = 64x + 63；</pre>
-然后再稍微的推导一下就可以得到：
-<pre>2( 2x + 1 ) + 1 = 4x + 3；
-2( 2( 2x + 1 ) + 1 ) + 1 = 8x + 7；</pre>
-真是令人感到吃惊！这意味着 当我们运行了两次 8x+7 运算时，就相当于运行了三次 4x+3 运算；
-
-那么这道题目就变的简单了许多，我们可以得到结论：4x+3的运算次数必然不会达到3次以上，因为如果有三次 4x+3 运算便可以用两次 8x+7 运算来代替(题目要求用尽可能少的次数来解);
-
-而为了方便一些，我们便统一的用 2x+1 来代替这两种运算！
-<pre>**while(true)
-{
-    num=(num*2+1)%1000000007;
-    ans++;
-    if(num==0) break;
-}**</pre>
-这就简单了许多，下面就可以上正解的代码了
-<pre>**#include&lt;iostream&gt;
-#include&lt;cstdio&gt;
-using namespace std;
-long long ans,num;
-int main()
-{
-    scanf("&amp;lld",&amp;n);
-    while(true)
-    {
-        num=(num*2+1)%1000000007;
-        ans++;
-        if(num==0) break;
-    }
-    printf("%lld\n",****(ans-1)/3+1);
-****    return 0; 
-}**</pre>]]></content>
+<p><pre>8( 8x + 7 ) + 7 = 64x + 63；<br>4( 4( 4x + 3 ) + 3 ) + 3 = 64x + 63；</pre><br>然后再稍微的推导一下就可以得到：</p>
+<p><pre>2( 2x + 1 ) + 1 = 4x + 3；<br>2( 2( 2x + 1 ) + 1 ) + 1 = 8x + 7；</pre><br>真是令人感到吃惊！这意味着 当我们运行了两次 8x+7 运算时，就相当于运行了三次 4x+3 运算；</p>
+<p>那么这道题目就变的简单了许多，我们可以得到结论：4x+3的运算次数必然不会达到3次以上，因为如果有三次 4x+3 运算便可以用两次 8x+7 运算来代替(题目要求用尽可能少的次数来解);</p>
+<p>而为了方便一些，我们便统一的用 2x+1 来代替这两种运算！<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">while</span>(<span class="literal">true</span>)</div><div class="line">&#123;</div><div class="line">    num=(num*<span class="number">2</span>+<span class="number">1</span>)%<span class="number">1000000007</span>;</div><div class="line">    ans++;</div><div class="line">    <span class="keyword">if</span>(num==<span class="number">0</span>) <span class="keyword">break</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>这就简单了许多，下面就可以上正解的代码了<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span>&amp;lt;iostream&amp;gt;</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span>&amp;lt;cstdio&amp;gt;</span></div><div class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</div><div class="line"><span class="keyword">long</span> <span class="keyword">long</span> ans,num;</div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">scanf</span>(<span class="string">"&amp;amp;lld"</span>,&amp;amp;n);</div><div class="line">    <span class="keyword">while</span>(<span class="literal">true</span>)</div><div class="line">    &#123;</div><div class="line">        num=(num*<span class="number">2</span>+<span class="number">1</span>)%<span class="number">1000000007</span>;</div><div class="line">        ans++;</div><div class="line">        <span class="keyword">if</span>(num==<span class="number">0</span>) <span class="keyword">break</span>;</div><div class="line">    &#125;</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"%lld\n"</span>,(ans<span class="number">-1</span>)/<span class="number">3</span>+<span class="number">1</span>);</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>; </div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+]]></content>
     
     <summary type="html">
     
@@ -771,6 +629,132 @@ int main()
       <category term="强势" scheme="https://cybeird.tk/tags/%E5%BC%BA%E5%8A%BF/"/>
     
       <category term="奇技淫巧" scheme="https://cybeird.tk/tags/%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>吃惊！吴甏甏偷偷去卫生间竟然只为玩拼图！</title>
+    <link href="https://cybeird.tk/2016/10/04/FromWordPress%20(12)/"/>
+    <id>https://cybeird.tk/2016/10/04/FromWordPress (12)/</id>
+    <published>2016-10-04T08:57:30.000Z</published>
+    <updated>2016-10-23T02:21:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>没错！这件事情还是要从集训刚刚开始的时候说起；那时候，发生了一件可怕的事情——断网！</p>
+<p><a href="http://cybirdy.wordpress.com/wp-admin" target="_blank" rel="external">继续阅读 →</a></p>
+<p>&nbsp;</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;没错！这件事情还是要从集训刚刚开始的时候说起；那时候，发生了一件可怕的事情——断网！&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://cybirdy.wordpress.com/wp-admin&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;继续阅读 →&lt;/
+    
+    </summary>
+    
+      <category term="ALL" scheme="https://cybeird.tk/categories/ALL/"/>
+    
+      <category term="TECHNOLOGY" scheme="https://cybeird.tk/categories/ALL/TECHNOLOGY/"/>
+    
+    
+      <category term="作死" scheme="https://cybeird.tk/tags/%E4%BD%9C%E6%AD%BB/"/>
+    
+      <category term="A2" scheme="https://cybeird.tk/tags/A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如果代码按行付费，会有什么好玩的事情发生？</title>
+    <link href="https://cybeird.tk/2016/10/04/FromWordPress%20(17)/"/>
+    <id>https://cybeird.tk/2016/10/04/FromWordPress (17)/</id>
+    <published>2016-10-04T01:49:36.000Z</published>
+    <updated>2016-10-23T02:21:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>程序员联盟发布了一条消息:以后我们的代码要按行收费。客户们立即就炸了锅，按行收费?那你程序员不是想怎么写就怎么写，我们让你们做个项目，你写个空行，写点注释什么的，谁来管?</p>
+<p>物竞天择。有人有需求就立即有人响应。正当这些客户无所适从的时候，一个职业产生了:代码缩行师。客户在审查项目交付的时候会先去缩行事务所请一位缩行师。缩行师的职责就是在保证不改变原有系统功能的前提下将程序缩减到最大的程序，缩行师按照缩减行数的百分之10收费。</p>
+<p>缩行师是程序员最大的天敌。</p>
+<p>缩行师也是分等级的，最低级的缩行师只能只能缩缩空行，挪一挪括号，一般人都能做，大抵是被程序员看不起的，往上一级就要稍微懂一点编程知识了，知道怎么把定义的变量合到一行，怎么去掉可以去掉的括号，他们已经一脚踏入了领域和空间的境界了，他们许多是程序员做不下去为了生计讨口饭吃，倘若搞好客户关系，也能活的很滋润。</p>
+<p>再往上一级，这些人是缩行师界的精英，而且随时可以成为最优秀的程序员，他们把无聊的体力工作交给下边的人去做，自己则和程序员斗智斗勇，”你这个变量没必要定义”，”你这两处的功能重复了，回去重构一下”，”你这个是自己造轮子，去找别人开源写好的”。</p>
+<p>他们有的曾经是最好的程序员，有的是因为忍受不了缩行师的百般挑刺，无奈转行，有的是因为满足内心找茬的欲望。他们有的是从事多年的缩行师，从学徒起一步一步坐起，扎扎实实的走到现在的地位，这个级别的缩行师是各大缩行事务所争抢的对象。</p>
+<p>每个客户都以邀请到他们为荣，预约的人多了，事务所开始准备”缩号”，客户只有摇到了缩号才能有幸邀请到这些人，有的客户更是为专家缩号大打出手，于是又催生了一种叫”缩牛”的职业，不再赘述。</p>
+<p>他们某种程度上已经达到了缩行师的顶峰，但还有一种传说中的存在，他们是打破规则的存在，如果你侥幸看到他们的杰作，你就会发现上面提到的都是浮云。一行，只需要一行就够了，什么工程，什么项目，只需要一行。jquery就是他们的杰作。</p>
+<p>有一个站在巅峰的男人曾经应拉里·佩奇的邀请将谷歌的所有代码写成了一行，并且能完整的实现了谷歌现有的所有功能，人们甚至发现谷歌搜索快了将近30%。后来有华尔街和硅谷的资深从业者看到这行代码后久久不能平静，对这行代码给出了5600亿美元的估值，当然这行代码一般人是看不完的，据说这行代码的长度可以从加州连接到M31星系。</p>
+<p>程序员的生活变得越来越艰难，程序员联盟本身的福祉变成了灾难，尽管随着代码的行数减少，单行的价格在不断的升高，程序员行业的整体质量也在不断的提高，但依旧艰难。程序员联盟又做了一个艰难的决定:最终的代码每行不得多于200字符。对于一般的程序，一行200字符足够了，即使一行内容长，也可以分行解决。</p>
+<p>在程序员联盟认为一劳永逸的同时缩行师的行业发生了惊天动地的变化，对于底层的没有太大变化，但对于习惯把程序挤到一行的从业者来说无异于晴天霹雳。当原来的方法不适用的时候他们又何去何从？</p>
+<p>在进行了多次缩行师技术交流峰会之后他们找到了一个对策，那就是将计就计，把每行的代码都调整到200字符，在规则的范围内达到最大的收益。于是缩行师行会陆续制订了缩行师的规范，守则。</p>
+<p>越来越多的人开始分享他们把代码调整成200字符的技巧，有的缩行师贴出代码提问“怎么把这段代码缩成标准的格式?”，就会有很多热心的缩行师为其解答，也会有不少伪装成缩行师的程序员冷嘲热讽甚至谩骂。</p>
+<p>随着缩行技术的发展和普及，程序员和客户由一开始看到凹凸不平的代码变成一个个整齐的长方形的代码的一脸懵逼到渐渐习惯再到麻木。很多年过去以后，新的程序员甚至以为长方型的代码就应该是代码本来的样子。</p>
+<p>程序员的世界也发生了很大的变化，越来越多的客户为了节省一笔缩行师的费用，开始要求程序员去写每行200个字符的长方形代码，程序员经过了这么多年的耳濡目染也渐渐的接受了，这第一批写方块代码的程序员渐渐引领了代码的潮流《编程方块》《代码方块之道》《方块之美》《重构-方块化改善既有代码》。。这些书开始变得越来越畅销。</p>
+<p>缩行师除了偶尔被叫去做做code review，需要的越来越少了，整个行业也开始没落。</p>
+<p>有人的地方就有江湖，有利益的地方就有冲突。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;程序员联盟发布了一条消息:以后我们的代码要按行收费。客户们立即就炸了锅，按行收费?那你程序员不是想怎么写就怎么写，我们让你们做个项目，你写个空行，写点注释什么的，谁来管?&lt;/p&gt;
+&lt;p&gt;物竞天择。有人有需求就立即有人响应。正当这些客户无所适从的时候，一个职业产生了:代码缩行
+    
+    </summary>
+    
+      <category term="ALL" scheme="https://cybeird.tk/categories/ALL/"/>
+    
+    
+      <category term="TECHNOLOGY" scheme="https://cybeird.tk/tags/TECHNOLOGY/"/>
+    
+      <category term="强势" scheme="https://cybeird.tk/tags/%E5%BC%BA%E5%8A%BF/"/>
+    
+      <category term="妙趣横生" scheme="https://cybeird.tk/tags/%E5%A6%99%E8%B6%A3%E6%A8%AA%E7%94%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>去死吧！你这个异教徒人渣！</title>
+    <link href="https://cybeird.tk/2016/10/04/FromWordPress%20(10)/"/>
+    <id>https://cybeird.tk/2016/10/04/FromWordPress (10)/</id>
+    <published>2016-10-04T01:43:34.000Z</published>
+    <updated>2016-10-23T02:21:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>一天我路过一座桥，碰巧看见一个人想跳河自杀。我跑过去对他大喊道：“别跳，别死啊。”</p>
+<p>“为什么不让我跳？”他说。</p>
+<p>“因为还有很多东西值得我们活下去啊。”</p>
+<p>“有吗？比如说？”<a id="more"></a></p>
+<p>“呃……你做什么工作？”</p>
+<p>“程序员。”</p>
+<p>我说：“我也是！瞧，有共同点了吧。你是软件还是硬件？”</p>
+<p>“软件。”</p>
+<p>“我也是！PC 还是 Web？”</p>
+<p>“PC。”</p>
+<p>“我也是！Windows 还是 Linux 平台？”</p>
+<p>“Linux。”</p>
+<p>“我也是！那你使用 C 还是 C++？”</p>
+<p>“C++。”</p>
+<p>“我也是。1998 年的 C++ 98 还是 2011 年的 C++ 11？”</p>
+<p>“2011 年的 C++ 11。”</p>
+<p>“我也是。大括号写在后面还是写在下一行？”</p>
+<p>“下一行。”</p>
+<p>“去死吧！你这个异教徒人渣！”我一把将他推下桥去。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一天我路过一座桥，碰巧看见一个人想跳河自杀。我跑过去对他大喊道：“别跳，别死啊。”&lt;/p&gt;
+&lt;p&gt;“为什么不让我跳？”他说。&lt;/p&gt;
+&lt;p&gt;“因为还有很多东西值得我们活下去啊。”&lt;/p&gt;
+&lt;p&gt;“有吗？比如说？”
+    
+    </summary>
+    
+      <category term="ALL" scheme="https://cybeird.tk/categories/ALL/"/>
+    
+      <category term="C++" scheme="https://cybeird.tk/categories/ALL/C/"/>
+    
+      <category term="TECHNOLOGY" scheme="https://cybeird.tk/categories/ALL/C/TECHNOLOGY/"/>
+    
+    
+      <category term="C艹" scheme="https://cybeird.tk/tags/C%E8%89%B9/"/>
+    
+      <category term="IT" scheme="https://cybeird.tk/tags/IT/"/>
+    
+      <category term="TECHNOLOGY" scheme="https://cybeird.tk/tags/TECHNOLOGY/"/>
     
   </entry>
   

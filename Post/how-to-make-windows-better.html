@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 3.9.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.4.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.4.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.4.0">
+  <link rel="mask-icon" href="/images/logo.svg?v=7.4.0" color="#222">
+
+<link rel="stylesheet" href="/css/main.css?v=7.4.0">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.4.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: true,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    translation: {
+      copy_button: '复制',
+      copy_success: '复制成功',
+      copy_failure: '复制失败'
+    },
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta name="description" content="首先，你要优化好自己的电脑才有可能优化好妹子的电脑">
+<meta name="keywords" content="Scarlett,windows">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如何优雅地给妹子优化电脑">
+<meta property="og:url" content="cybird.site/Post/how-to-make-windows-better.html">
+<meta property="og:site_name" content="BIRD IS GREAT">
+<meta property="og:description" content="首先，你要优化好自己的电脑才有可能优化好妹子的电脑">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2017-01-21T04:12:05.135Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="如何优雅地给妹子优化电脑">
+<meta name="twitter:description" content="首先，你要优化好自己的电脑才有可能优化好妹子的电脑">
+  <link rel="canonical" href="cybird.site/Post/how-to-make-windows-better">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>如何优雅地给妹子优化电脑 | BIRD IS GREAT</title>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93021468-1"></script>
+  <script>
+    var host = window.location.hostname;
+    if (host !== "localhost" || !true) {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-93021468-1');
+    }
+  </script>
+
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?e562b00330cebac4c3d80f30de0aba42";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">BIRD IS GREAT</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <h1 class="site-subtitle" itemprop="description">Better to Run Than Curse the Road</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+      
+      
+      
+        
+        <li class="menu-item menu-item-home">
+      
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-about">
+      
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-tags">
+      
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-categories">
+      
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-archives">
+      
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-posts">
+      
+    
+
+    <a href="/categories/Post" rel="section"><i class="menu-item-icon fa fa-fw fa-pencil"></i> <br>posts</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-technology">
+      
+    
+
+    <a href="/categories/TECHNOLOGY" rel="section"><i class="menu-item-icon fa fa-fw fa-laptop"></i> <br>technology</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-report">
+      
+    
+
+    <a href="/categories/cpp" rel="section"><i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br>report</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-sitemap">
+      
+    
+
+    <a href="/sitemap.xml" rel="section"><i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br>站点地图</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a href="javascript:;" class="popup-trigger">
+        
+          <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜索</a>
+      </li>
+    
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+            
+
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+      <article itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block post">
+    <link itemprop="mainEntityOfPage" href="cybird.site/Post/how-to-make-windows-better.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="CyBeird">
+      <meta itemprop="description" content="This Is Bird's Blog">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="BIRD IS GREAT">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">如何优雅地给妹子优化电脑
+
+          
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              
+                
+              
+
+              <time title="创建时间：2017-01-21 15:44:54" itemprop="dateCreated datePublished" datetime="2017-01-21T15:44:54-05:00">2017-01-21</time>
+            </span>
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2017-01-20 23:12:05" itemprop="dateModified" datetime="2017-01-20T23:12:05-05:00">2017-01-20</time>
+              </span>
+            
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Post/" itemprop="url" rel="index"><span itemprop="name">Post</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            <span id="/Post/how-to-make-windows-better.html" class="post-meta-item leancloud_visitors" data-flag-title="如何优雅地给妹子优化电脑" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+          
+            <div class="post-description">首先，你要优化好自己的电脑才有可能优化好妹子的电脑</div>
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>（一）软件的安装：推荐好用合适的软件能够避免安装不必要的软件<br>多数妹子对于电脑的要求可能也只是影音娱乐，上网，简单办公，这里推荐几款常用软件。</p>
+<ol>
+<li><p>推荐安装<code>CCleaner</code><br>如果不想自己手动磁盘清理、在控制面板卸载软件，可以选择安装这两款</p>
+</li>
+<li><p>推荐使用<code>Chrome</code>浏览器 /<code>火狐</code>浏览器等优雅简洁的浏览器，不会自作主张。能科学上网（fanqiang）就更好了。</p>
+</li>
+<li><p>推荐 <code>PotPlayer</code><br>它占用内存小，解码能力相当强，功能也很齐全，无广告。<br>或者<br><code>射手影音播放器</code><br>小巧，我比较喜欢的一点就是用它看美剧或者国外电影不用自己找字幕，它会自动下载合适的字幕</p>
+</li>
+</ol>
+<ol start="4">
+<li><p><code>网易云音乐</code> 听见好时光 想你所想</p>
+</li>
+<li><p><code>Everything</code>  查找文件实在是快而方便，除普通搜索外，还支持通配符，布尔算子，正则表达式等方式搜索。</p>
+</li>
+<li><p><code>7-Zip</code> ：解压缩软件，轻便好用，更高压缩比，免费，无广告</p>
+</li>
+<li><p><code>QQ轻聊版腾讯TM</code>：想用qq，可是广告太多？这是一个很好的选择，干净无广告（目前2013更新）</p>
+</li>
+<li><p><code>搜狗输入法</code> 以及 <code>搜狗输入法智慧版</code>：登录账号，记录自己的词库和输入习惯，输入专业词汇的时候比较爽。如果没有这个需求，微软自带微软拼音输入法 就够了。另外，它有截图工具，有它就不需要额外开启其他截图工具了。<br>有人提到弹窗，可以在<br>设置属性——词库——开启新词提示这，取消勾选<br>以及设置属性——高级——取消勾选节日天气，天气预报……</p>
+</li>
+</ol>
+<p><code>谷歌拼音输入法</code> 没有广告,有墙</p>
+<ol start="9">
+<li><p><code>Lingoes</code>  翻译，支持pdf划词翻译</p>
+</li>
+<li><p>网络资源下载软件：<br><code>IDM</code><br><code>FDM</code></p>
+</li>
+</ol>
+<ol start="11">
+<li><p><code>f.lux</code> 调整电脑显示器的色温 减少夜晚由使用电脑所产生的睡眠紊乱和失眠现象。</p>
+</li>
+<li><p><code>印象笔记</code> 记录重要内容、笔记，多平台同步，不易丢失。<br>另有chrome插件印象笔记</p>
+</li>
+</ol>
+<p>windows的<code>OneNote</code> 也很不错</p>
+<p>以上所推荐的，基本满足日常需求。</p>
+<p>（二）使用习惯：说实在的，这才是最重要的啊</p>
+<ol>
+<li>不要相信所谓的各种优化软件，尽管看起来它真的像是在优化，微软应该是最了解windows的</li>
+</ol>
+<p>c盘的东西别去乱动，重要数据不要放在c盘</p>
+<ol start="2">
+<li>文件分类存放啊啊啊，不要再桌面放那么多东西了啊！<br>曾经在桌面放过重要文件，后来系统不行了，重装系统，然后也就没有了……</li>
+</ol>
+<p>比如：d盘，放软件安装包啊，或者将新安装软件的安装路径设置到这，e盘，比如学习资料啦<br>f盘：比如视频或者其他娱乐资源啦，别给c盘（包括桌面）放什么各种文件资料，视频资源，会卡的好么!</p>
+<ol start="3">
+<li><p>点击盘符——右键——属性——磁盘清理，清理不需要的文件。使用“磁盘清理”删除文件<br>定期（比如一两个月）进行磁盘碎片整理，点击盘符——右键——属性——工具——优化。</p>
+</li>
+<li><p>安装软件注意不要勾选安装其他软件，看清楚是否有捆绑软件安装。不然又给你装全家桶了。</p>
+</li>
+<li><p>小软件，普通软件，系统软件（如驱动程序）安装在系统默认路径（c盘），大型软件，易产生垃圾文件的软件，例如游戏等，可选择安装在非系统盘。绿色软件（免安装，直接运行）可选择安装在非系统盘。<br>如此，系统备份也可减小。<br>感谢 @黄嘉艺 提出</p>
+</li>
+<li><p>不要使用比如某卫士软件管家下载软件安装。需要安装软件，去该软件厂商的官网进行下载。</p>
+</li>
+<li><p>加速球什么的，就别老用了，降低了内存占用率，但同时可能降低了运行速度。</p>
+</li>
+<li><p>不安装某卫士，某杀毒软件，控制面板卸载程序，windows defender杀毒，足够。</p>
+</li>
+<li><p>用好chrome，别让浏览器自作主张地为你做事</p>
+</li>
+<li><p>下载软件的时候，慎点高速下载，慎点本地高速下载。下载时，注意看下载内容的全拼名称或者英文名称是否和你要下载的软件一致。</p>
+</li>
+<li><p>为了避免流氓软件，可以参考以下做法：如何禁止安装流氓软件<br>或者在C:\Program Files (x86)和C:\Program Files 下新建目录（比如360），将该目录的权限设置为不允许访问</p>
+</li>
+<li><p>桌面图标太多，找起来又不好用？给应用设置快捷方式啊。<br>设置方法：快捷方式图标——右键——属性——快捷键——设置成你容易记得快捷键就好了。</p>
+</li>
+<li><p>如果可以的话，你就打开注册表编辑器（win+r——regedit），删除一些无用的注册表吧。<br>自启动项管理 win+R，输入msconfig 来源；Windows自带</p>
+</li>
+<li><p>如果可以，定期给电脑清灰除尘，避免风扇堵塞，cpu温度过高，降低性能。</p>
+</li>
+<li><p>现在的系统多可保留用户数据进行安装</p>
+</li>
+<li><p>定期清理自己电脑中的文件</p>
+</li>
+<li><p>重定向‘我的文档’文件夹到其他文件夹，减少占用系统盘空间。将文件夹重定向到新位置</p>
+</li>
+<li><p>最后创建系统还原点，备份系统文件，系统有问题时，一键还原。</p>
+</li>
+<li><p>加内存条，换ssd</p>
+</li>
+</ol>
+<p>暂时先到这</p>
+<p>感觉已经不是在给妹子优化windows了，这是在教妹子“优化”自己的windows啊，正所谓，授人以鱼不如授人以渔嘛，可是，自己还得学捕鱼，而且又辛苦，水深啊。</p>
+
+    </div>
+
+    
+    
+    
+        
+      
+
+      <footer class="post-footer">
+          
+            
+          
+          <div class="post-tags">
+            
+              <a href="/tags/Scarlett/" rel="tag"># Scarlett</a>
+            
+              <a href="/tags/windows/" rel="tag"># windows</a>
+            
+          </div>
+        
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+              
+                <a href="/Post/why-i-use-point-tk.html" rel="next" title="批判万恶的Freenom,真是令人感到讨厌!!">
+                  <i class="fa fa-chevron-left"></i> 批判万恶的Freenom,真是令人感到讨厌!!
+                </a>
+              
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+              
+                <a href="/Post/i-dot-like-it.html" rel="prev" title="我可能注冊了假域名，。，">
+                  我可能注冊了假域名，。， <i class="fa fa-chevron-right"></i>
+                </a>
+              
+            </div>
+          </div>
+        
+      </footer>
+    
+  </div>
+  
+  
+  
+  </article>
+
+  </div>
+
+
+          </div>
+          
+    
+    <div class="comments" id="gitalk-container"></div>
+  
+
+        </div>
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+        
+        
+        
+        
+      
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">CyBeird</p>
+  <div class="site-description" itemprop="description">This Is Bird's Blog</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">82</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-categories">
+        
+          
+            <a href="/categories/">
+          
+        
+        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-name">分类</span>
+        </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-tags">
+        
+          
+            <a href="/tags/">
+          
+        
+        <span class="site-state-item-count">85</span>
+        <span class="site-state-item-name">标签</span>
+        </a>
+      </div>
+    
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="https://github.com/cybeird" title="GitHub &rarr; https://github.com/cybeird" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+    
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="https://weibo.com/u/5923141742" title="Weibo &rarr; https://weibo.com/u/5923141742" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i>Weibo</a>
+      </span>
+    
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="https://www.facebook.com/profile.php?id=100006449520737" title="FB Page &rarr; https://www.facebook.com/profile.php?id=100006449520737" rel="noopener" target="_blank"><i class="fa fa-fw fa-facebook"></i>FB Page</a>
+      </span>
+    
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="http://steamcommunity.com/id/birdisgrea" title="steam &rarr; http://steamcommunity.com/id/birdisgrea" rel="noopener" target="_blank"><i class="fa fa-fw fa-steam"></i>steam</a>
+      </span>
+    
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="http://www.zhihu.com/people/blrd" title="知乎 &rarr; http://www.zhihu.com/people/blrd" rel="noopener" target="_blank"><i class="fa fa-fw fa-ra"></i>知乎</a>
+      </span>
+    
+  </div>
+
+
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title">
+      <i class="fa fa-fw fa-link"></i>
+      Something Magical
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="http://muzhou.tech" title="http://muzhou.tech" rel="noopener" target="_blank">MuZhou</a>
+        </li>
+      
+        <li class="links-of-blogroll-item">
+          <a href="http://soyjuice.tk" title="http://soyjuice.tk" rel="noopener" target="_blank">Soy Juice</a>
+        </li>
+      
+        <li class="links-of-blogroll-item">
+          <a href="http://blog.csdn.net/janis_z" title="http://blog.csdn.net/janis_z" rel="noopener" target="_blank">janis</a>
+        </li>
+      
+        <li class="links-of-blogroll-item">
+          <a href="http://cybird.site/2048" title="http://cybird.site/2048">二零四八</a>
+        </li>
+      
+        <li class="links-of-blogroll-item">
+          <a href="https://s2.ltmcpe.cn/?" title="https://s2.ltmcpe.cn/?" rel="noopener" target="_blank">gyx</a>
+        </li>
+      
+    </ul>
+  </div>
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">CyBeird</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.9.0</div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.4.0</div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+  
+    <span class="post-meta-divider">|</span>
+  
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+  
+</div>
+
+
+
+
+
+
+  
+  <script>
+  function leancloudSelector(url) {
+    return document.getElementById(url).querySelector('.leancloud-visitors-count');
+  }
+  if (CONFIG.page.isPost) {
+    function addCount(Counter) {
+      var visitors = document.querySelector('.leancloud_visitors');
+      var url = visitors.getAttribute('id').trim();
+      var title = visitors.getAttribute('data-flag-title').trim();
+
+      Counter('get', `/classes/Counter?where=${JSON.stringify({ url })}`)
+        .then(response => response.json())
+        .then(({ results }) => {
+          if (results.length > 0) {
+            var counter = results[0];
+            Counter('put', '/classes/Counter/' + counter.objectId, { time: { '__op': 'Increment', 'amount': 1 } })
+              .then(response => response.json())
+              .then(() => {
+                leancloudSelector(url).innerText = counter.time + 1;
+              })
+            
+              .catch(error => {
+                console.log('Failed to save visitor count', error);
+              })
+          } else {
+              leancloudSelector(url).innerText = 'Counter not initialized! More info at console err msg.';
+              console.error('ATTENTION! LeanCloud counter has security bug, see how to solve it here: https://github.com/theme-next/hexo-leancloud-counter-security. \n However, you can still use LeanCloud without security, by setting `security` option to `false`.');
+            
+          }
+        })
+        .catch(error => {
+          console.log('LeanCloud Counter Error', error);
+        });
+    }
+  } else {
+    function showTime(Counter) {
+      var visitors = document.querySelectorAll('.leancloud_visitors');
+      var entries = [...visitors].map(element => {
+        return element.getAttribute('id').trim();
+      });
+
+      Counter('get', `/classes/Counter?where=${JSON.stringify({ url: { '$in': entries } })}`)
+        .then(response => response.json())
+        .then(({ results }) => {
+          if (results.length === 0) {
+            document.querySelectorAll('.leancloud_visitors .leancloud-visitors-count').forEach(element => {
+              element.innerText = 0;
+            });
+            return;
+          }
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.url;
+            var time = item.time;
+            leancloudSelector(url).innerText = time;
+          }
+          for (var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = leancloudSelector(url);
+            if (element.innerText == '') {
+              element.innerText = 0;
+            }
+          }
+        })
+        .catch(error => {
+          console.log('LeanCloud Counter Error', error);
+        });
+    }
+  }
+
+  fetch('https://app-router.leancloud.cn/2/route?appId=AGiQPimQ82y4G2MVzgDNL4nE-gzGzoHsz')
+    .then(response => response.json())
+    .then(({ api_server }) => {
+      var Counter = (method, url, data) => {
+        return fetch(`https://${api_server}/1.1${url}`, {
+          method: method,
+          headers: {
+            'X-LC-Id': 'AGiQPimQ82y4G2MVzgDNL4nE-gzGzoHsz',
+            'X-LC-Key': 'yH8w8wEL1JIFH31Ip4dxnTqT',
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data)
+        });
+      };
+      if (CONFIG.page.isPost) {
+        const localhost = /http:\/\/(localhost|127.0.0.1|0.0.0.0)/;
+        if (localhost.test(document.URL)) return;
+        addCount(Counter);
+      } else if (document.querySelectorAll('.post-title-link').length >= 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+    
+  
+  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script src="/lib/anime.min.js?v=3.1.0"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+<script src="/js/utils.js?v=7.4.0"></script><script src="/js/motion.js?v=7.4.0"></script>
+<script src="/js/schemes/pisces.js?v=7.4.0"></script>
+<script src="/js/next-boot.js?v=7.4.0"></script>
+
+
+
+  
+  <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  <script src="/js/local-search.js?v=7.4.0"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID: 'ca1fe28bc94d1a6cf967',
+      clientSecret: '6ebc8770c95b9d7009b6541b488b8dda19b3e6ce',
+      repo: 'cybeird.github.io',
+      owner: 'cybeird',
+      admin: ['cybeird'],
+      id: '78090a1a1dc1647c5ac7f3f3bbd86d91',
+        language: 'zh-CN',
+      
+      distractionFreeMode: 'true'
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+</script>
+
+</body>
+</html>
